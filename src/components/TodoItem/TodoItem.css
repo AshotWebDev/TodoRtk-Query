@@ -1,0 +1,43 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.151);
+    box-shadow: 0 0 20px brown;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.todo-item:hover{
+    transform: translateY(-30px);
+    background-color: rgb(165, 42, 42);
+}
+
+.todo-item input{
+    width: 30px;
+    height: 30px;
+}
+
+.todo-item  p{
+    color: brown;
+}
+
+.todo-item:hover p{
+    color: wheat;
+}
+
+.todo-item span{
+    font-family: monospace;
+    color: red;
+    font-size: 30px;
+    padding: 0 7px;
+}
+
+.todo-item:hover span{
+    color: wheat;
+
+}
+
+.todo-item span:hover{
+    box-shadow: 0 0 20px wheat;
+}
